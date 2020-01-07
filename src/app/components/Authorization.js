@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import FuseUtils from '../../utils/utils';
+import FuseUtils from '../../@theme/utils';
 import {matchRoutes} from 'react-router-config';
 import {withRouter} from 'react-router-dom';
 import {connect} from 'react-redux';

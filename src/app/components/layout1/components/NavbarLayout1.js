@@ -1,12 +1,12 @@
 import React from 'react';
 import {AppBar, Hidden, Icon} from '@material-ui/core';
-import {FuseScrollbars} from '@fuse';
+import {FuseScrollbars} from '@theme';
 import clsx from 'clsx';
-import UserNavbarHeader from 'app/fuse-layouts/shared-components/UserNavbarHeader';
-import Logo from 'app/fuse-layouts/shared-components/Logo';
-import NavbarFoldedToggleButton from 'app/fuse-layouts/shared-components/NavbarFoldedToggleButton';
-import NavbarMobileToggleButton from 'app/fuse-layouts/shared-components/NavbarMobileToggleButton';
-import Navigation from 'app/fuse-layouts/shared-components/Navigation';
+import UserNavbarHeader from 'app/theme-layouts/shared-components/UserNavbarHeader';
+import Logo from 'app/theme-layouts/shared-components/Logo';
+import NavbarFoldedToggleButton from 'app/theme-layouts/shared-components/NavbarFoldedToggleButton';
+import NavbarMobileToggleButton from 'app/theme-layouts/shared-components/NavbarMobileToggleButton';
+import Navigation from 'app/theme-layouts/shared-components/Navigation';
 import {makeStyles} from '@material-ui/styles';
 
 const useStyles = makeStyles({

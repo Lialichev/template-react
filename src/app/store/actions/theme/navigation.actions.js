@@ -1,4 +1,4 @@
-import FuseUtils from '../../../../utils/utils';
+import FuseUtils from '../../../../@theme/utils';
 
 export const GET_NAVIGATION = '[NAVIGATION] GET NAVIGATION';
 export const SET_NAVIGATION = '[NAVIGATION] SET NAVIGATION';

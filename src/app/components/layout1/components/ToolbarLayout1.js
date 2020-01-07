@@ -1,10 +1,10 @@
 import React from 'react';
 import {AppBar, Hidden, Toolbar} from '@material-ui/core';
 import {makeStyles, ThemeProvider} from '@material-ui/styles';
-import {FuseSearch, FuseShortcuts} from '@fuse';
-import NavbarMobileToggleButton from 'app/fuse-layouts/shared-components/NavbarMobileToggleButton';
-import QuickPanelToggleButton from 'app/fuse-layouts/shared-components/quickPanel/QuickPanelToggleButton';
-import UserMenu from 'app/fuse-layouts/shared-components/UserMenu';
+import {FuseSearch, FuseShortcuts} from '@theme';
+import NavbarMobileToggleButton from 'app/theme-layouts/shared-components/NavbarMobileToggleButton';
+import QuickPanelToggleButton from 'app/theme-layouts/shared-components/quickPanel/QuickPanelToggleButton';
+import UserMenu from 'app/theme-layouts/shared-components/UserMenu';
 import {useSelector} from 'react-redux';
 
 const useStyles = makeStyles(theme => ({

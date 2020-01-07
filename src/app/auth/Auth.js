@@ -9,14 +9,14 @@ class Auth extends Component {
 
     state = {
         waitAuthCheck: true
-    }
+    };
 
     componentDidMount() {
-        return Promise.all([
+        Promise.all([
             // Comment the lines which you do not use
             //this.firebaseCheck(),
             //this.auth0Check(),
-            this.jwtCheck()
+            // this.jwtCheck()
         ]).then(() => {
             this.setState({waitAuthCheck: false})
         })
@@ -67,10 +67,10 @@ class Auth extends Component {
         jwtService.init();
 
         return Promise.resolve();
-    })
+    });
 
     render() {
-        return this.state.waitAuthCheck ? <div>Not Auth</div> : <React.Fragment children={this.props.children}/>;
+        return this.state.waitAuthCheck ? <div>Loader</div> : <React.Fragment children={this.props.children}/>;
     }
 }
 

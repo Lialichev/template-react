@@ -1,4 +1,4 @@
-import * as Actions from '../../actions/fuse';
+import * as Actions from '../../actions/theme';
 
 const initialState = {
     state  : false,

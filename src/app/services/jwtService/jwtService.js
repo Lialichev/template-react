@@ -1,6 +1,6 @@
 import axios from 'axios';
 import jwtDecode from 'jwt-decode';
-import FuseUtils from "../../../utils/utils";
+import FuseUtils from "../../../@theme/utils";
 
 class jwtService extends FuseUtils.EventEmitter {
 

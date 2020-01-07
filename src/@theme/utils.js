@@ -55,7 +55,7 @@ class EventEmitter {
     }
 }
 
-class FuseUtils {
+class Utils {
 
     static filterArrayByString(mainArr, searchText)
     {
@@ -435,4 +435,4 @@ class FuseUtils {
 
 }
 
-export default FuseUtils;
+export default Utils;

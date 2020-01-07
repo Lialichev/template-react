@@ -1,5 +1,5 @@
 import history from '../../../../@history';
-import {setDefaultSettings, setInitialSettings} from '../../../store/actions/fuse';
+import {setDefaultSettings, setInitialSettings} from '../../../store/actions/theme';
 import merge from 'lodash/merge';
 import store from '../../../store';
 import * as Actions from '../../../store/actions';
