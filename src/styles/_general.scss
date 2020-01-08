@@ -1,0 +1,80 @@
+// Containers
+.container {
+  width: 100%;
+  padding: 0 15px;
+  max-width: 960px;
+  margin: 0 auto;
+
+  &--min {
+    max-width: 850px;
+  }
+}
+
+// Flex items
+.flex-cont {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.justify-sb {
+  justify-content: space-between;
+}
+
+.justify-sa {
+  justify-content: space-around;
+}
+
+.justify-c {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+// Transform
+.revert {
+  transform: rotate(180deg);
+}
+
+// Activity
+
+.pointer-events {
+  pointer-events: none !important;
+  opacity: .6 !important;
+}
+
+.disableItem {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+// Animation
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 0.5s ease-in;
+}
+
+// Video response
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

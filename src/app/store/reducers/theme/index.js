@@ -4,11 +4,11 @@ import message from './message.reducer';
 import dialog from './dialog.reducer';
 import routes from './routes.reducer';
 
-const fuseReducers = combineReducers({
+const themeReducers = combineReducers({
     navbar,
     message,
     dialog,
     routes
 });
 
-export default fuseReducers;
+export default themeReducers;

@@ -7,7 +7,7 @@ import routes from "./configs/routes";
 import store from './store';
 import Authorization from "./components/Authorization";
 import Auth from "./auth/Auth";
-import Layout1 from "./components/layout1/Layout1";
+import Layout from "./components/Layout";
 
 function App() {
     return (
@@ -18,7 +18,7 @@ function App() {
                 <Auth>
                     <Router history={history}>
                         <Authorization>
-                            <Layout1 />
+                            <Layout />
                         </Authorization>
                     </Router>
                 </Auth>

@@ -1,8 +1,8 @@
 import React, {useContext} from 'react';
 import {renderRoutes} from 'react-router-config'
-import AppContext from '../../AppContext';
-function Layout1(props)
-{
+import AppContext from '../AppContext';
+
+function Layout(props) {
 
     const appContext = useContext(AppContext);
     const {routes} = appContext;
@@ -15,4 +15,4 @@ function Layout1(props)
     );
 }
 
-export default Layout1;
+export default Layout;

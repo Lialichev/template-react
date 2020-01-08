@@ -18,7 +18,7 @@ function Example() {
     });
 
     return (
-        <div>
+        <div className="example">
             {count}
             <button onClick={handleClick}>
                 + 1
