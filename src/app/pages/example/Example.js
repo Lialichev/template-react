@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import useForm from "../../../@theme/useForm";
 import './example.scss';
+import Button from '@material-ui/core/Button';
 
 function Example() {
     const [count, setCount] = useState(0);
@@ -20,9 +21,9 @@ function Example() {
     return (
         <div className="example">
             {count}
-            <button onClick={handleClick}>
+            <Button variant="contained" color="primary" onClick={handleClick}>
                 + 1
-            </button>
+            </Button>
             <form>
                 <input
                     type="email"
